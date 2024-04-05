@@ -9,6 +9,10 @@ const App = () => {
       <div className={`clicks-${count}`} data-testid={`clicks-${count}`}>
         {count}
         <button onClick={() => setCount(count + 1)}>click{count}</button>
+        <button onClick={() => setCount(count + 1)}>click{count}</button>
+        <button onClick={() => setCount(count + 1)}>click{count}</button>
+        <button onClick={() => setCount(count + 1)}>click{count}</button>
+
       </div>
     </div>
   );
